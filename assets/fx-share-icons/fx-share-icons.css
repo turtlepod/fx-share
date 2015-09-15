@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fx-share";
+  src:url("fonts/fx-share.eot");
+  src:url("fonts/fx-share.eot?#iefix") format("embedded-opentype"),
+    url("fonts/fx-share.woff") format("woff"),
+    url("fonts/fx-share.ttf") format("truetype"),
+    url("fonts/fx-share.svg#fx-share") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "fx-share" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fx-share" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "f";
+}
+.icon-twitter:before {
+  content: "t";
+}
+.icon-google-plus:before {
+  content: "g";
+}

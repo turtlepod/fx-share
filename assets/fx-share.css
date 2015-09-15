@@ -1,0 +1,60 @@
+.fx-share{
+	clear: both;
+}
+.fx-share:before,
+.fx-share:after{
+	content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+.fx-share ul{
+	padding: 0 !important;
+	margin: 0 0 .7em 0 !important;
+	list-style: none !important;
+}
+.fx-share ul li{
+	display: inline-block;
+}
+
+
+/* Buttons */
+.fx-share-button{
+	text-decoration: none !important;
+	display: inline-block;
+	margin: 0 5px 5px 0;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	border-radius: 3px;
+	color: #777 !important;
+	background: #f8f8f8;
+	border: 1px solid #cccccc;
+	box-shadow: 0 1px 0 rgba(0,0,0,.08);
+	text-shadow: none;
+	line-height: 23px;
+	padding: 1px 8px 0px 5px;
+}
+.fx-share-button:hover,
+.fx-share-button:focus,
+.fx-share-button:active{
+	color: #555;
+	background: #fafafa;
+	border: 1px solid #999999;
+}
+.fx-share-button:active{
+	box-shadow: inset 0 1px 0 rgba(0,0,0,.16);
+}
+.fx-share-button:before{
+	content: "";
+	font-family: "fx-share";
+	vertical-align: top;
+	margin-right: 3px;
+	-webkit-font-smoothing: antialiased;
+}
+.fx-share-button-facebook:before{
+	content: "f";
+}
+.fx-share-button-twitter:before{
+	content: "t";
+}
+.fx-share-button-google_plus:before{
+	content: "g";
+}
