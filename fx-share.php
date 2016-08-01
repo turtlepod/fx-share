@@ -2,8 +2,8 @@
 /**
  * Plugin Name: f(x) Share
  * Plugin URI: http://genbu.me/plugins/fx-share/
- * Description: Facebook, Twitter, and Google Plus share button for your content.
- * Version: 0.1.0
+ * Description: Simple sharing plugin. Easily add Facebook, Twitter, and Google+ share button to your content.
+ * Version: 1.0.0
  * Author: David Chandra Purnama
  * Author URI: http://shellcreeper.com/
  *
@@ -20,7 +20,7 @@
 **/
 
 /* Plugin Version. */
-define( 'FX_SHARE_VERSION', '0.1.0' );
+define( 'FX_SHARE_VERSION', '1.0.0' );
 
 /* Path to plugin directory. */
 define( 'FX_SHARE_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
